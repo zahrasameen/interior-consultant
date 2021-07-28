@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat:wght@300;500&display=swap');
+ 
+
+/* font-family: 'Crimson Pro', serif;
+
+font-family: 'Lora', serif;
+
+font-family: 'Montserrat', sans-serif; */
+
+*{
+    display: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin:12px;
+}
+
+.logo{
+    width:30%;
+    text-align: center;
+}
+
+.logo__text{
+    font-family: 'Crimson Pro', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    padding: 10px 5px;
+}
+
+.main__heading{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.main__description{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    padding-right: 35%;
+}
+
+.read-more{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.arrow-right{
+    vertical-align: middle;
+}
+
+.interior__image{
+    width: 100%;
+}
+
+.overlay{
+    background-color: white;
+    color: black;
+    width:70%;
+
+}
+
+.overlay__image{
+    
+}
+.footer-text{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
